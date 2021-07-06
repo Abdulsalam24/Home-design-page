@@ -24,8 +24,8 @@ button{
     border: none;
     width: 100%;
     display: block;
+    outline: none;
 }
-
 
 button:hover{
     background-color: sandybrown;
@@ -41,13 +41,13 @@ button:hover{
     border-radius: 14px;
     padding: 6px 15px;
     background-color:#FFBE00;
-    display: block;
+    
 }
 
 section{
     background-image: url(./background.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 }
 
 
@@ -69,7 +69,7 @@ section{
 
 .background{
     height: 100vh;
-    width: 100%;
+    
 }
 
 section{
