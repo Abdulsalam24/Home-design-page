@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+body,p,a,ul,li{
+   margin: 0;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+
+body{
+    font-family: monospace;
+}
+
+button{
+    background: none;
+    color: black;
+    border-radius: 14px;
+    padding: 4px 15px;
+    background-color:#FFBE00;
+    border: none;
+    width: 100%;
+}
+
+.button{
+    background: none;
+    color: black;
+    border-radius: 14px;
+    padding: 6px 15px;
+    background-color:#FFBE00;
+    
+}
+
+section{
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.h{
+    border-radius: 50%;
+    padding:3px;
+    border: 2px solid yellow;
+    background-color: #828380;
+    color: #CDAA96;
+    font-weight: bolder;
+}
+
+.nav-logo-text{
+    font-size: 16px;
+    text-shadow: 2px 1px;
+    margin-top: 5px;
+}
+
+.background{
+    height: 400px;
+    width: 100%;
+}
+
+section{
+    position: relative;
+    /* max-width: 572px; */
+}
+
+.welcome-text{
+    max-width: 572px; 
+}
+
+.welcome{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    background: rgba(0,0,0, 0.6);
+    color: white;
+    opacity: 1;
+    margin-top: 20px;
+    padding: 30px;
+    width: 60%;
+    max-width: 602px;
+    
+    margin: 0 auto;
+}
+
+.welcome h1{
+    margin-bottom: 0;
+}
+
+.welcome p{
+    margin: 20px 0;
+    font-size: 13px;
+
+}
+
+ 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+nav{
+    margin:0 5px ;
+    padding: 10px;
+    background-color: white;
+}
+
+.nav-login .login,.nav-login a{
+    margin-left: 8px;
+    
+}
+
+ul{
+    display: none;
+}
+
+footer{
+    background-color: #FAD35E;
+    padding: 14px;
+    
+}
+
+
+
+
+
+
+@media screen and (min-width:760px){
+    
+    ul{
+        display: flex;
+        align-self: center;
+        
+    }
+
+    li{
+        margin-left: 20px;
+    }
+
+    nav{
+        margin:0 5px ;
+        padding: 6px 0;
+        background-color: white;
+    }
+
+    .welcome{
+        max-width: 502px;
+    }
+
+
+    .nav-login .login{
+        margin-top: 2px;
+    }
+
+    footer{
+        padding: 14px;
+    }
+
+}
