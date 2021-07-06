@@ -23,6 +23,16 @@ button{
     background-color:#FFBE00;
     border: none;
     width: 100%;
+    display: block;
+}
+
+
+button:hover{
+    background-color: sandybrown;
+}
+
+.button:hover{
+    background-color: sandybrown;
 }
 
 .button{
@@ -31,7 +41,7 @@ button{
     border-radius: 14px;
     padding: 6px 15px;
     background-color:#FFBE00;
-    
+    display: block;
 }
 
 section{
