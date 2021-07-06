@@ -35,7 +35,7 @@ button{
 }
 
 section{
-    background-image: url(/asset/background.jpg);
+    background-image: url(./background.jpg);
     background-position: center;
     background-size: cover;
 }
